@@ -1,23 +1,10 @@
-# Week4Assignment
 
-## ARAŞTIRMA (20 puan)
-- Test Driven Development ve Behaviour Driven Development arasındaki farkı açıklayınız.
-- Unit Test nedir? Unit Test nasıl yapılır?
+## Unit Test nedir? Unit Test nasıl yapılır?
+- Unit Test yazılım testinin ilk seviyesidir. Unit test ile bizi kaliteli kod yazmaya teşvik eder. Entegrasyon ya da bir sonraki testlere gönderilecek kodun minimum hata ile gönderilmesine yardımcı olur. Birim testler moc data ile test edilir. Çünkü test sonrasında istenilen dataların bazıları gerçek kullanıcıdan alınması gerekebilir. 
 
-## SYMFONY KONSOL UYGULAMASI OLUŞTURMA (20 puan)
-1 ile N arası rastgele pozitif  tamsayıların olduğu bir array içinden en küçük ve en büyük sayıyı bulup, bu sayıları ekrana bastıran bir konsol uygulaması yazınız. Buradaki N değeri konsol uygulamasından parametrik olarak alınacaktır. Dizideki rastgele tamsayılar PHP’nin random fonksiyonuyla oluşturulabilir.
 
-Örnek: 
-Konsol Uygulaması için Input: 7
-//Random array değerleri: Array = {1,6,743,24,132,54,9}
+## Test Driven Development ve Behaviour Driven Development arasındaki farkı açıklayınız.
 
-Çıktı: 
-En Büyük Sayı: 743
-En Küçük Sayı: 1
-
-## SYMFONY WEB UYGULAMASI OLUŞTURMA (60 puan)
-Ders esnasında composer ile oluşturmuş olduğumuz ve twig template içeren Symfony uygulamasını Repo’ya yükleyiniz. Twig template aşağıdaki özellikleri barındırmalıdır:
-- En az 2 parametreyi controllerdan almalı (parametrelerden bir tanesi mutlaka array olmalı)
-- Ena z 1 asset içermeli (css / js) ve template içinde bu asset kullanılmalı
-- Template içinde controllerden alınan çıktı mutlaka döngüde bastırılmalı
-
+- TDD kod yazılmadan önce yazılan testlerdir. BDD ise kullanıcı hikayelerinden yola çıkılarak yapılan testlerdir.
+- TDD yazılan testlere göre kod yazılıp testten geçilmeye çalışılır. BDD is istenen işlevselliğe ilişkin somut örnekler bulmak için yapılır.
+- TDD daha küçük işlevsellik parçalarını ayrı ayrı test etmeye odaklanır. BDD ise davranışını son kullanıcının bakış açısından test etmek için tasarlanır.
